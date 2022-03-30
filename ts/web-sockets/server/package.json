@@ -1,0 +1,22 @@
+{
+  "name": "web-sockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sever.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.ts",
+    "dev": "nodemon server.ts"
+  },
+  "keywords": ["web-sockets", "real-time communication"],
+  "author": "Göksel KÜÇÜKŞAHİN",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0"
+  }
+}
